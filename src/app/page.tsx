@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <NavHeader />
-      <main>
+      <main id="main">
         <HeroSection config={siteConfig} />
         <AboutSection config={siteConfig} />
         {siteConfig.githubUsername && (
